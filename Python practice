@@ -1,0 +1,10 @@
+while True:
+    try:
+        print('Enter an examination score: ')
+        val = input()
+        val = float(val)
+        print(f'Exam score input is correct')
+        break
+    except ValueError:
+        print(f'{val} is not a number')
+        continue
