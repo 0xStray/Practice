@@ -8,3 +8,8 @@ while True:
     except ValueError:
         print(f'{val} is not a number')
         continue
+
+x = 2
+y = x + 5
+z = x + y
+print(z)
